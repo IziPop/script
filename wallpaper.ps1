@@ -1,5 +1,5 @@
 # Plus besoin de param($url)
-$url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2KkGlWZXuzaK1lOLy9dDEo4Jl_wpJYTFPg&s"
+$url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHf3fqS_nLCL0KDOymDmQnkRHDPsTJJptkww&s"
 $img = "$env:TEMP\sys_cache_04.jpg"
 
 try {
