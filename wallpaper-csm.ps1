@@ -1,5 +1,3 @@
-# Plus besoin de param($url)
-#$url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHf3fqS_nLCL0KDOymDmQnkRHDPsTJJptkww&s"
 $url = "https://github.com/IziPop/script/blob/main/wallpaper/csm.jpg?raw=true"
 $img = "$env:TEMP\sys_cache_04.jpg"
 
