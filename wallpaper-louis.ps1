@@ -1,5 +1,5 @@
 $url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHf3fqS_nLCL0KDOymDmQnkRHDPsTJJptkww&s"
-$img = "$env:TEMP\sys_cache_04.jpg"
+$img = "$env:TEMP\pico_wallpaper.jpg"
 
 try {
     Invoke-WebRequest -Uri $url -OutFile $img -ErrorAction SilentlyContinue
