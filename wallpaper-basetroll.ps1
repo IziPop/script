@@ -1,5 +1,5 @@
 $url = "https://github.com/IziPop/script/blob/main/wallpaper/basetroll.jpg?raw=true"
-$img = "$env:TEMP\sys_cache_04.jpg"
+$img = "$env:TEMP\pico_wallpaper.jpg"
 
 try {
     Invoke-WebRequest -Uri $url -OutFile $img -ErrorAction SilentlyContinue
